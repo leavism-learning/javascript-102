@@ -12,6 +12,6 @@ console.log(name);
 const groceries = ['apple', 'peanut butter', 'knife'];
 
 const [first, second, third] = groceries;
-const [, , cut] = groceries;
+const [, , cut] = groceries; // might as well do const cut = groceries[2]
 console.log(first);
 console.log(cut);
