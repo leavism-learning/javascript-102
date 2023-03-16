@@ -8,3 +8,8 @@ const huy = {
 const { name, age } = huy;
 
 console.log(name);
+
+const groceries = ['apple', 'peanut butter', 'knife'];
+
+const [first, second, third] = groceries;
+console.log(first);
