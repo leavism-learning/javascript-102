@@ -5,3 +5,4 @@ console.log(foo); // Uncaught TypeError: Cannot read property 'bar' of undefined
 
 const huy = person?.name; // undefined
 const huh = person?.['na' + 'me'];
+const huu = person.name?.getName?.(); // Method does not exist,
